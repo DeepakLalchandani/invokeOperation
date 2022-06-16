@@ -35,3 +35,9 @@ class invokeOperation{
       //return "mul"; // when mul is called and then perform multiplication.
     }  
 } 
+
+/*
+Main.java:18: error: non-static variable this cannot be referenced from a static context
+ io.getClass().getMethod(op).invoke(this); 
+^ 1 error
+*/
